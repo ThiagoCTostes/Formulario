@@ -1,0 +1,61 @@
+body{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  background: #FDD228 ;
+}
+  
+.container{
+  position: absolute;
+  top: 0; 
+  bottom: 0;
+  left: 0; 
+  right: 0;
+  margin: auto;
+  width: 5px;
+  height: 300px;
+  background: black;
+  border-radius: 15px;
+  border: none;
+}  
+
+h2{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  color: white;
+}
+
+.rodape{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  color: white;
+  font-size: 12px;
+}
+
+a{
+  color: #FDD228;
+  font-size: 17px;
+  text-decoration: none;
+}
+.botao {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+button{
+  background: black;
+  border: 1px solid #FDD228;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  color: white;
+}
+
+button:hover {
+  background: #FDD228;
+  border: none;
+  color: black;
+}
